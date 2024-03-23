@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- making the website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- title page -->
+    <title>Ascii Art Converter</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header>
+        <!-- heading -->
+        <h1>Ascii Art Converter</h1>
+        <!-- creating a file input element for selecting an image -->
+        <p>Upload a picture and turn it into pure ASCII masterpiece!</p>
+    </header>
+
+    <input type="file" name="picture" />
+    <!-- creating a canvas element for previewing converted text -->
+    <canvas id="preview" style="display: none;"></canvas>
+    <pre id="ascii"></pre>
+</body>
+</html>
