@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: 2rem 3rem;
+    font-family: 'VT323', monospace;
+    line-height: 1.5rem;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    font-size: 18px;
+}
+
+header h1 {
+    margin-right: 1.5rem;
+}
+
+input {
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+pre {
+    font-family: 'Courier New', 'monospace';
+    margin: 1rem auto;
+    font-size: 8px;
+    line-height: 1;
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+}
